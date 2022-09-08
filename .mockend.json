@@ -4,10 +4,13 @@
       "string": {}
     },
     "name": {
-      "string": {}
+      "loremWords": { "min": 3, "max": 6 }
     },
     "comment": {
-      "string": {}
+      "loremSentences": {
+        "minLength": 5,
+        "maxLength": 50
+      }
     },
     "color": {
       "string":  [
@@ -55,27 +58,5 @@
     "disable": {
       "boolean": {}
     },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "tag": {
-      "string": [
-        "one",
-        "two",
-        "three"
-      ]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    }
   }
 }
