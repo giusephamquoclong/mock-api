@@ -4,7 +4,7 @@
       "string": {}
     },
     "name": {
-      "loremWords": { "minLength": 5, "maxLength": 10 }
+      "loremWord": {}
     },
     "comment": {
       "loremSentences": {
