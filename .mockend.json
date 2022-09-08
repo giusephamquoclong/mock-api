@@ -1,0 +1,81 @@
+{
+  "Post": {
+    "id": {
+      "string": {}
+    },
+    "name": {
+      "string": {}
+    },
+    "comment": {
+      "string": {}
+    },
+    "color": {
+      "string":  [
+        "#5D9B5B",
+        "#76EC8A",
+        "#0E8604",
+        "#2F334A",
+        "#A0C8AD",
+        "#0C1A58",
+        "#1BF382",
+        "#247287",
+        "#17A23F",
+        "#ADF27F",
+        "#6B14B4",
+        "#F43321",
+        "#4AECD5",
+        "#61B055",
+        "#A23422",
+        "#ADF3AA",
+        "#5B281A",
+        "#9698F3",
+        "#F8C766",
+        "#D9535C",
+        "#4D613A",
+        "#5583F0",
+        "#501920",
+        "#C5DEF5",
+        "#BFD4F2",
+        "#3EE2E5",
+        "#5A4A43",
+        "#D77ECC",
+        "#8F6355",
+        "#E311BD",
+        "#7F7B53",
+        "#09080A",
+        "#DEC43C",
+        "#F59951",
+        "#655A76",
+        "#028216"
+      ]
+    },
+    "count": {
+      "int": { "min": 0, "max": 1000000 }
+    },
+    "disable": {
+      "boolean": {}
+    },
+    "body": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "tag": {
+      "string": [
+        "one",
+        "two",
+        "three"
+      ]
+    },
+    "isDraft": {
+      "boolean": {}
+    },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    }
+  }
+}
